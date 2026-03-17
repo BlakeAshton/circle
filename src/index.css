@@ -1,0 +1,43 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap");
+
+:root {
+  font-family: "Manrope", "Space Grotesk", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #e7e9ea;
+  background-color: #000;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-synthesis: none;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100svh;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.8)),
+    url("/assets/app-wallpaper.jpg") center / cover no-repeat fixed;
+  background-color: #000;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+button,
+input {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
